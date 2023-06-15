@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.github.DaWorstCoder'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.javacord:javacord:3.4.0'
+}
+
+test {
+    useJUnitPlatform()
+}
